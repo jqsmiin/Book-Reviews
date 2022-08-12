@@ -1,0 +1,105 @@
+@media(max-width : 1170px){
+  #create-books{
+    .create-item-2{
+        display: none !important;
+    }
+    .create-item-1{
+        max-width: 100%;
+    }
+  }
+}
+@media(max-width : 900px){
+    #home{
+        .item-2{
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+    #profile{
+        margin-top: -4rem;
+        margin-bottom: 5rem;
+        height: unset !important;
+        .item-1{
+            img{
+                width: 49% !important;
+            }
+        }
+        .item-2{
+            padding: 0 7rem !important;
+        }
+    }
+    #sign-up{
+        .item-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+@media(max-width : 730px){
+    #create-books{
+        form{
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+}
+@media(max-width : 601px){
+    #navbar{
+        margin-bottom: 1rem !important;
+    }
+    #home{
+        .item-1{
+            display: none;
+        }
+    }
+    #profile{
+        margin-top: 0 !important;
+        .item-2{
+            padding: 0 3rem !important;
+        }
+        .item-1{
+            .text-container{
+                p{
+                    padding: 0 3rem;
+                }
+            }
+        }
+    }
+    #sign-up{
+        .item-2{
+            margin-left: 0rem !important;
+            padding: 0 3rem !important;
+        }
+    }
+}
+@media(max-width : 440px){
+    #create-books{
+        padding-left: 1rem !important;
+    }
+    #forgot-password{
+        .content-wrapper{
+            .emailInput{
+                width: 100% !important;
+            }
+        }
+    }
+    #navbar{
+        .item-2{
+            padding-right: 2rem !important;
+        }
+    }
+    #home{
+        .book-container{
+            flex-direction: column !important;
+          .image-container{
+            justify-content: end !important;
+          }
+        }
+    }
+    #profile{
+        .item-2{
+            .info-container{
+                width: 100% !important;
+            }
+        }
+    }
+}

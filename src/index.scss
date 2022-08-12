@@ -1,0 +1,217 @@
+@import './css/utilities';
+@import './css/media';
+
+#sign-up{
+    .item-1{
+        padding: 56px;
+    }
+    .item-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -2rem;
+        h3{
+            font-size: 3rem;
+            margin-bottom: 26px;
+        }
+        .forgot-password{
+            margin-top: -0.5rem;
+            cursor: pointer;
+        }
+    }
+}
+#forgot-password{
+    .content-wrapper{
+        .emailInput{
+            margin-bottom: 1rem;
+            width: 40%;
+        }
+        .fBtn{
+            width: fit-content;
+        }
+    }
+}
+#navbar{
+    margin-bottom: 5rem;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    img{
+        width: 100px;
+        height: 56px;
+    }
+    .item-2{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 4rem;
+    }
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    .item-1{
+        text-align: center;
+        img{
+            width: 70%;
+            border-radius: 50%;
+        }
+        .text-container{
+            margin-top: -1rem;
+        }
+    }
+    .item-2{
+        h2{
+            font-size: 2rem;
+        }
+        .info-container{
+            width: 80%;
+        }
+        button{
+            margin-top: 2rem;
+        }
+    }
+}
+#create-books{
+    padding-left: 3rem;
+    margin-bottom: 5rem;
+    form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    #description{
+        align-items: baseline;
+        padding-bottom: 3.5rem;
+    }
+    .logout-btn{
+        font-size: 1rem;
+        background: transparent;
+    }
+    .rating-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        .rating-label{
+            font-size: 18px !important;
+        }
+        label{
+            text-transform: uppercase;
+            font-size: 25px;
+        }
+    }
+    .field-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        .field-label{
+            font-size: 18px !important;
+        }
+    }
+    .section-title{
+        margin-bottom: 2.5rem;
+    }
+    #images{
+        color: #000;
+        position: absolute;
+        right: -17rem;
+        pointer-events: none;
+    }
+    #images::-webkit-file-upload-button{
+        display: none;
+    }
+    .create-item-2{
+        flex-basis: 47.333333%;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 61.333333%;
+        overflow: hidden;
+        img{
+            padding-left: 5rem;
+            width: 89%;
+        }
+    }
+}
+#home{
+    padding: 0 1.5rem;
+    margin-bottom: 5rem;
+
+    .section-title{
+        margin-top: 3rem;
+    }
+    .item-1{
+        box-shadow: 3px 3px 10px #ccc;
+        padding: 1rem 2rem;
+        padding-bottom: 2rem;
+        .rating-container{
+            gap: 2rem;
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding-left: 2rem;
+            height: 81px;
+            .star-container{
+                border-right: 1px solid;
+                padding-right: 2rem;
+            }
+            .image-container{
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+                img{
+                    width: 50px;
+                }
+            }
+        }
+    }
+
+    .item-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+    .book-container{
+        position: relative;
+        border-radius: 8px;
+        display: flex;
+        gap: 0.5rem;
+        width: -webkit-fill-available;
+        padding: 17px;
+        color: #000;
+        border: 1px solid #ccc;
+        box-shadow: 5px 5px 10px #dadada;
+        .image-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 170px;
+                height: 90%;
+                border-radius: 40px;
+            }
+        }
+        .text-container{
+            display: flex;
+            flex-direction: column;
+            h2{
+                font-size: 2.5rem;
+                margin-top: 1.3rem;
+                margin-bottom: 0;
+                margin-left: -5px;
+            }
+            h4{
+                margin-top: 0.5rem;
+                font-weight: 400;
+                font-size: 17px;
+            }
+            .geners{
+                margin-bottom: 1.3rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
