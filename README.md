@@ -36,7 +36,7 @@ https://book-reviews.vercel.app
 
 - `Book card with image and short description`
 
-![Screenshot_2](https://user-images.githubusercontent.com/86678700/185763490-e51bd807-7d86-48e9-a19b-56de00550cb3.png)
+![Screenshot_6](https://user-images.githubusercontent.com/86678700/193506361-74403b29-98e7-48cf-a02b-86a803eb872b.png)
 
 - `Create book page`
 
